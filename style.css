@@ -1,0 +1,226 @@
+/* General Body Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url('C:/Users/Rosh/Documents/wokenupsid/pictures/butterfly desktop wallpaper.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background for better contrast */
+    color: #ffd700;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header .logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: #8e0000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Hero Section */
+#hero {
+    background: rgba(0, 0, 0, 0.7) url('om-shanti-om-hero.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    padding: 120px 20px;
+    text-align: center;
+    position: relative;
+}
+
+#hero .overlay {
+    background-color: Semi-transparent(102, 0, 0, 0.7);
+    padding: 50px;
+    display: inline-block;
+    border: 5px solid rgba(255, 255, 255, 0.388);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+#hero h2 {
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: #8e0000;
+    font-family: 'Broadway', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 6px #000;
+}
+
+#hero p {
+    font-size: 26px;
+    margin-bottom: 40px;
+    color: #8e0000;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#hero button {
+    background-color:#3e3d394e;
+    color: #f8f3f3;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px #000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Highlights Section */
+#highlights {
+    padding: 50px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+#highlights h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    color: white;
+    font-family: 'Broadway', sans-serif;
+    text-shadow: 3px 3px 6px #000;
+    letter-spacing: 1px;
+}
+
+.highlight-item {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.highlight-item img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #8e0000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.highlight-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    font-family: 'Broadway', sans-serif;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Products Section */
+#products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #000;
+}
+
+.product-item {
+    background-color:black;
+    border: 5px solid #8e0000;
+    margin: 20px;
+    padding: 20px;
+    width: 220px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    font-size: 22px;
+    margin: 10px 0;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Order Form */
+#order-form {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #000;
+
+}
+
+#order-form form {
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    background-color: black;
+    padding: 30px;
+    border: 5px solid #8e0000;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+#order-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-family: 'Georgia', serif;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#order-form input, #order-form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #8e0000;
+    border-radius: 4px;
+    background-color: black;
+    color: #ffd700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#order-form button {
+    background-color: rgb(19, 18, 18);
+    color: #8e0000;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    text-shadow: 2px 2px 4px #000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid #8e0000;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.5);
+}
